@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Flowers</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/image-gallery.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+	<div class="row">
+		<div class="col-12">
+        		<h1 id="color">Types of Flowers</h1>			
+		</div> 
+	</div>
+
+	<div class="row">
+		<div class="col-12">
+            		<div id="thumbnails">
+
+            			<img src="img/daisies.jpg" id="daisies" onclick="thumbBor(this.id), mainImage(this)" onmouseover="caption(this)" width="19.375%" height="19.5%" alt="Field of white and yellow daisies" />
+                		<img src="img/iris.jpg" id="iris" onclick="thumbBor(this.id), mainImage(this)" onmouseover="caption(this)" width="19.375%" height="19.5%" alt="Closeup of purple iris" />
+                		<img src="img/poppy.jpg" id="poppy" onclick="thumbBor(this.id), mainImage(this)" onmouseover="caption(this)" width="19.375%" height="19.5%" alt="Closeup of red poppy"/>
+                		<img src="img/rose.jpg" id="rose" onclick="thumbBor(this.id), mainImage(this)" onmouseover="caption(this)" width="19.375%" height="19.5%" alt="A single pink rose"/>
+                		<img src="img/tulips.jpg" id="tulips" onclick="thumbBor(this.id), mainImage(this)" onmouseover="caption(this)" width="19.375%" height="19.5%" alt="A couple of pink tulips"/>
+	 			<div class="thumbUp">
+ 	  			<div class="thumbDown">
+
+    			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12">
+			<div id="mainImage">
+                		<img id="largeImage" src="img/ImageName.jpg" width="100%" height="100%" alt=""/>
+    			</div>
+		</div>
+	</div>
+
+   	<div class="row">
+		<div class="col-12">
+			<div class="caption">
+               			<p id="caption"></p>
+    			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
